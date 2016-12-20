@@ -1,0 +1,31 @@
+{
+  "name": "angular2-learning",
+  "version": "1.0.0",
+  "description": "displaying-data",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc **/*.ts -w\" \"lite-server\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^2.3.1",
+    "@angular/compiler": "^2.3.1",
+    "@angular/core": "^2.3.1",
+    "@angular/forms": "^2.3.1",
+    "@angular/http": "^2.3.1",
+    "@angular/platform-browser": "^2.3.1",
+    "@angular/platform-browser-dynamic": "^2.3.1",
+    "concurrently": "^3.1.0",
+    "lite-server": "^2.2.2",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.1",
+    "systemjs": "^0.19.41",
+    "typescript": "^2.1.4",
+    "zone.js": "^0.7.3"
+  },
+  "devDependencies": {
+    "angular-in-memory-web-api": "^0.2.1"
+  },
+  "repository": {}
+}
